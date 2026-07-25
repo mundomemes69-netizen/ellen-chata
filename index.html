@@ -1,0 +1,25 @@
+   <body> 
+
+    <h3>voce sabe que te amo né</h3> 
+    <h1>te amooooo</h1>
+    <p>vamo ir hj no mc  🍔 </p>
+
+    <div class="botoes">
+        <button onclick="enviarwhatsapp('sim')">SIIIM ❤️ </button> 
+        <button onclick="enviarwhatsapp('não')" >NÃÃO😢 </button>
+    </div>
+    <script>
+function enviarWhatsApp(resposta) {
+
+    let numero = "551151489929"; // coloque seu número aqui com DDD
+
+    let mensagem = "Resposta: " + resposta + " ❤️";
+
+    let link = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensagem);
+
+    window.open(link, "_blank");
+}
+</script>
+
+
+</body>
